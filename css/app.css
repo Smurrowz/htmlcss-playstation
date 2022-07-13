@@ -23,19 +23,28 @@
 }
 /* hero  */
 
-.hero {
+.hero, .hero-2 {
   background-image: url(../img/jumbo-bg.png);
   background-size: cover;
   background-position: top;
-  height: 600px;
+  
 }
 
-.hero .hero-img {
+.hero{
+  background-image: url(../img/jumbo-bg.png);
+  height: 600px;
+}
+.hero-2{
+  background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+  height: 700px;
+}
+
+.hero .hero-img, .hero-2 .hero-img {
   width: 55%;
   height: auto;
 }
 
-.hero .hero-button{
+.hero .hero-button, .hero-2 .hero-button{
   background-color: #CD3D0F;
   color: white;
 }
