@@ -143,3 +143,29 @@
 .hero-4{
   background-color:#161C3B ;
 }
+
+/* sezione social */
+
+
+@media (min-width:576px) {
+  .mycont.social-sect{
+    max-width: 700px;
+  }
+}
+
+
+/* sezione footer */
+
+.main-footer {
+  background-color: #00439C;
+  padding-top: 100px;
+  padding-bottom: 120px;
+}
+.main-footer ul li{
+  line-height: 40px;
+}
+.main-footer ul li a{
+  text-decoration: none;
+  color: currentColor;
+  
+}
