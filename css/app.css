@@ -78,10 +78,22 @@
     display: inline;
   }
 }
+
 .ps5-showcase .col{
   opacity: 0.5;
 }
 .ps5-showcase .col:active{
   opacity: 1;
   border-bottom:4px solid #2385D5;
+}
+
+
+/* sezione nuove uscite */
+
+.new-games img{
+  border-radius: 20px;
+}
+
+.new-games{
+  padding-bottom: 6rem;
 }
