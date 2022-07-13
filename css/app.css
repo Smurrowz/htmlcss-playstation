@@ -1,3 +1,16 @@
+/* generali */
+
+.mycont{
+  width: 100%;
+  padding: 0 1rem;
+}
+@media (min-width:576px) {
+  .mycont{
+    padding: 0 1.5rem;
+  }
+}
+/* header */
+
 .main-header-top {
   background-color: black;
 }
@@ -29,4 +42,16 @@
 
 .hero h2{
   font-size: 3rem;
+}
+
+/* prima sezione col carosello */
+
+.mycarousel img{
+  border-radius: 20px;
+  
+}
+.mycarousel .carousel-highlight:active img{
+  border: 4px solid #2385D5;
+  padding: 1px;
+  
 }
