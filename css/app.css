@@ -1,7 +1,32 @@
-.main-header-top{
+.main-header-top {
   background-color: black;
 }
 
-.navbar-2nd{
+.navbar-2nd {
   flex-grow: 0 !important;
+}
+.navbar ul li a, .navbar ul li button{
+  font-size: 24px;
+}
+/* hero  */
+
+.hero {
+  background-image: url(../img/jumbo-bg.png);
+  background-size: cover;
+  background-position: top;
+  height: 600px;
+}
+
+.hero .hero-img {
+  width: 55%;
+  height: auto;
+}
+
+.hero .hero-button{
+  background-color: #CD3D0F;
+  color: white;
+}
+
+.hero h2{
+  font-size: 3rem;
 }
