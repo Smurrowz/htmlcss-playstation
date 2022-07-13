@@ -29,7 +29,11 @@
   background-position: top;
   
 }
-
+.hero-3 p, .hero-3 button,
+.hero-2 p, .hero-2 button,
+.hero p, .hero button{
+  font-weight: 500;
+}
 .hero{
   background-image: url(../img/jumbo-bg.png);
   height: 600px;
@@ -39,7 +43,7 @@
   height: 700px;
 }
 
-.hero .hero-img, .hero-2 .hero-img {
+.hero .hero-img, .hero-2 .hero-img, .hero-3 .hero-img {
   width: 55%;
   height: auto;
 }
@@ -96,4 +100,27 @@
 
 .new-games{
   padding-bottom: 6rem;
+}
+
+/* sezione ps4 */
+
+.ps4-sect{
+  margin-bottom: 140px;
+}
+
+@media (min-width:768px){
+  .ps4-sect{
+    margin-bottom: 90px;
+  }
+}
+
+/* hero 3 */
+.hero-3{
+  background-color:#BEBCBB ;
+}
+
+
+.hero-3-col-sx{
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
