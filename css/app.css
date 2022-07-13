@@ -2,4 +2,6 @@
   background-color: black;
 }
 
-nav 
+.navbar-2nd{
+  flex-grow: 0 !important;
+}
