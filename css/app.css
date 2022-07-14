@@ -1,4 +1,7 @@
 /* generali */
+*{
+  font-family:'Roboto', sans-serif;
+} 
 
 .mycont{
   width: 100%;
@@ -18,9 +21,7 @@
 .navbar-2nd {
   flex-grow: 0 !important;
 }
-.navbar ul li a, .navbar ul li button{
-  font-size: 24px;
-}
+
 /* hero  */
 
 .hero, .hero-2 {
